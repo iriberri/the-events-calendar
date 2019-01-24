@@ -647,13 +647,6 @@ if ( ! class_exists( 'Tribe__Events__Main' ) ) {
 				'is_premium' => false,
 				'has_addons' => false,
 				'has_paid_plans' => false,
-				'menu' => array(
-					'slug' => 'edit.php?post_type=tribe_events',
-					'first-path' => 'edit.php?post_type=tribe_events&page=tribe-common&welcome-message-the-events-calendar=1',
-					'account' => false,
-					'contact' => false,
-					'support' => false,
-				),
 			) );
 			do_action( 'tec_fs_loaded' );
 		}
